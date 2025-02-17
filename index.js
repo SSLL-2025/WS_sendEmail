@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 
 app.post('/send', sendEmail)
 
-app.post('/sendEmail', sendEmailCompra)
+app.post('/sendEmailCompra', sendEmailCompra)
 
 
 app.listen(3000, () => {

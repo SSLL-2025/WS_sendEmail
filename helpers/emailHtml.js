@@ -1,4 +1,4 @@
-const { imagePsinet, imageCodelco, header } = require('../images')
+const { imagePsinet, imageCodelco, header } = require('../helpers/images')
 
 const emailCompra = (nombre, compra, link_card, link_board, detalle_tarjeta) => {
   const html = `<!doctype html>
