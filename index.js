@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 app.use(express.json({ limit: '8mb' }));
 
-const { sendEmail } = require('./controller/email.controller');
+const { sendEmail, sendEmailCompra } = require('./controller/email.controller');
 
 app.get('/', (req, res) => {
   res.send('Hello World!');
@@ -10,6 +10,8 @@ app.get('/', (req, res) => {
 
 
 app.post('/send', sendEmail)
+
+app.post('/sendEmail', sendEmailCompra)
 
 
 app.listen(3000, () => {
