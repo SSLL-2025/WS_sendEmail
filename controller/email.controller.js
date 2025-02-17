@@ -130,7 +130,7 @@ const sendEmailCompra = async (req, res) => {
     mailOptions.attachments = [
       {
         filename: 'header.png',
-        path: '../images/header.png',
+        path: './images/header.png',
         cid: 'unique@nodemailer.com' //same cid value as in the html img src
       }
     ];

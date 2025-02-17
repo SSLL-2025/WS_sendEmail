@@ -1,5 +1,5 @@
 const axios = require('axios');
-require('dotenv').config()
+const dotenv = require('dotenv').config()
 
 async function getAttachment(id_card) {
     try {
