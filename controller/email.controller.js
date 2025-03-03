@@ -89,7 +89,10 @@ const sendEmailCompra = async (req, res) => {
     } else if (request.etiqueta.includes("ENLACES")) {
        correo = "jbrit008@contratistas.codelco.cl"
       nombre = "Javier Brito"
-    } else {
+    } else if (request.etiqueta.includes("CAMARAS")) {
+      correo = "jbrit008@contratistas.codelco.cl"
+     nombre = "Javier Brito"
+   }  else {
       correo = "bcort015@contratistas.codelco.cl"
       nombre = ""
     }
