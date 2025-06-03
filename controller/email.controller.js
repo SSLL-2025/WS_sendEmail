@@ -46,15 +46,13 @@ const sendEmailCompra = async (req, res) => {
     const request = req.body
   
     //Sacar el correo por el tipo de etiqueta.
-    let correo = "bcort015@contratistas.codelco.cl";
+    let correo = "rcami001@contratistas.codelco.cl";
     let nombre = "";
-    let correosCopia = ['bcort015@contratistas.codelco.cl',
-      'benjamin.cortes@psinet.cl',
-      'rcami001@contratistas.codelco.cl',
+    let correosCopia = ['rcami001@contratistas.codelco.cl',
       'mbust001@contratistas.codelco.cl',
-      'jeade@codelco.cl',
       'apena020@contratistas.codelco.cl',
       "ggodo009@contratistas.codelco.cl",
+      "rodrigo.caminada@psinet.cl",
       "marzule@contratistas.codelco.cl"];
     let nombre_compra = request.cardname;
     let link_tarjeta = request.link_card;
