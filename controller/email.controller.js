@@ -49,12 +49,12 @@ const sendEmailCompra = async (req, res) => {
     let correo = "rcami001@contratistas.codelco.cl";
     let nombre = "";
     let correosCopia = ['rcami001@contratistas.codelco.cl',
-     // 'mbust001@contratistas.codelco.cl',
-     // 'apena020@contratistas.codelco.cl',
-     // "ggodo009@contratistas.codelco.cl",
-     // "zgome001@codelco.cl",
-      "lmont013@contratistas.codelco.cl""];
-    //  "marzule@contratistas.codelco.cl"];
+     'mbust001@contratistas.codelco.cl',
+     'apena020@contratistas.codelco.cl',
+     "ggodo009@contratistas.codelco.cl",
+     "zgome001@codelco.cl",
+      "lmont013@contratistas.codelco.cl,
+       "marzule@contratistas.codelco.cl"];
     let nombre_compra = request.cardname;
     let link_tarjeta = request.link_card;
     let link_tablero = request.link_board;
@@ -67,7 +67,7 @@ const sendEmailCompra = async (req, res) => {
   
   
       if (request.etiqueta.includes("MS125")) {
-        correosCopia.push('fmard004@contratistas.codelco.cl');
+        correosCopia.push('zgome001@codelco.cl');
       }
   
     if (request.etiqueta.includes("RADIOS")) {
@@ -92,7 +92,7 @@ const sendEmailCompra = async (req, res) => {
       correo = "jbrit008@contratistas.codelco.cl"
      nombre = "Javier Brito"
    }  else {
-      correo = "bcort015@contratistas.codelco.cl"
+      correo = "lmont013@contratistas.codelco.cl"
       nombre = ""
     }
   
