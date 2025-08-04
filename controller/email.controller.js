@@ -53,7 +53,7 @@ const sendEmailCompra = async (req, res) => {
      'apena020@contratistas.codelco.cl',
      "ggodo009@contratistas.codelco.cl",
      "zgome001@codelco.cl",
-      "lmont013@contratistas.codelco.cl,
+      "lmont013@contratistas.codelco.cl",
        "marzule@contratistas.codelco.cl"];
     let nombre_compra = request.cardname;
     let link_tarjeta = request.link_card;
