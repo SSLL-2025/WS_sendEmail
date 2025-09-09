@@ -82,10 +82,7 @@ const sendEmailCompra = async (req, res) => {
     } else if (request.etiqueta.includes("TELECOMUNICACIONES")) {
       correo = ["ggodo009@contratistas.codelco.cl", "marzule@contratistas.codelco.cl"]
       nombre = "Guillermo / Marcelo"
-    } else if (request.etiqueta.includes("TI")) {
-      correo = "rcami001@contratistas.codelco.cl"
-      nombre = "Rodrigo"
-    } else if (request.etiqueta.includes("ENLACES")) {
+    }  else if (request.etiqueta.includes("ENLACES")) {
        correo = "jbrit008@contratistas.codelco.cl"
       nombre = "Javier Brito"
     } else if (request.etiqueta.includes("CAMARAS")) {
