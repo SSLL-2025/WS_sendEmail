@@ -48,9 +48,9 @@ const sendEmailCompra = async (req, res) => {
     //Sacar el correo por el tipo de etiqueta.
     let correo = "rcami001@contratistas.codelco.cl";
     let nombre = "";
-    let correosCopia = ['r.caminada.aca@gmail.com',
-     'mbust001@contratistas.codelco.cl',
-     'apena020@contratistas.codelco.cl',
+    let correosCopia = ["r.caminada.aca@gmail.com",
+     "mbust001@contratistas.codelco.cl",
+     "apena020@contratistas.codelco.cl",
      "ggodo009@contratistas.codelco.cl",
      "zgome001@codelco.cl",
       "lmont013@contratistas.codelco.cl",
