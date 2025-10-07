@@ -90,7 +90,7 @@ const sendEmailCompra = async (req, res) => {
      nombre = "Javier Brito"
    }  else {
       correo = "lmont013@contratistas.codelco.cl"
-      nombre = ""
+      nombre = "Lincoln Montiel"
     }
   
     //SACAR LOS ADJUNTOS DE LA TARJETA TRELLO MEDIANTE LA API
