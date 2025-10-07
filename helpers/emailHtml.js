@@ -316,7 +316,7 @@ const emailCompra = (nombre, compra, link_card, link_board, detalle_tarjeta) => 
                   <td class="wrapper">
                   <div style="margin-bottom: 10%;">
                   
-                  <img src="cid:unique@nodemailer.com" width="100%" height="70%" style="align-self: center; justify-self: center;" alt="Seguimiento de Compras" >
+                  <img src="cid:unique@nodemailer.com" width="100%" height="70%" style="align-self: center; justify-self: center;" alt="Seguimiento de Compras GOT" >
   
                   </div>
                   
@@ -342,12 +342,12 @@ const emailCompra = (nombre, compra, link_card, link_board, detalle_tarjeta) => 
                     <td class="content-block">
                       <span class="apple-link">Este correo ha sido generado automaticamente</span>
                       <br>
-                       <span class="apple-link">Por sistema de compras Psinet</span>
+                       <span class="apple-link">Por sistema de compras GOT</span>
                     </td>
                   </tr>
                   <tr>
                     <td class="content-block powered-by" style="font-size: 10px;">
-                      Desarrollado por <a  style="font-size: 10px;" href="https://github.com/benjamcadev">benjamcadev</a>
+                      
                     </td>
                   </tr>
                 </table>
