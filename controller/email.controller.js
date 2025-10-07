@@ -16,7 +16,7 @@ const sendEmail = async (req, res) => {
             port: 465,
             secure: true,
             auth: {
-                user: "bodega.got@gmail.com",
+                user: "bodegagotdsal@gmail.com",
                 pass: process.env.PASS_GMAIL,
 
             },
@@ -107,14 +107,14 @@ const sendEmailCompra = async (req, res) => {
       port: 465,
       secure: true,
       auth: {
-        user: "bodega.got@gmail.com",
+        user: "bodegagotdsal@gmail.com",
         pass: "eubu dqiv heoy cipz",
   
       },
     });
   
     const mailOptions = {
-      from: '"Compras GOT" <bodega.got@gmail.com>',
+      from: '"Compras GOT" <bodegagotdsal@gmail.com>',
       to: correo,
       cc: correosCopia,
       subject: 'Compra ' + nombre_compra,
